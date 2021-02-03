@@ -2,7 +2,7 @@
   "name": "meet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GCnomore.github.io/watspoppin",
+  "homepage": "https://rrigs.github.io/meetup",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^5.11.4",
