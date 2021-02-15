@@ -14,5 +14,5 @@ ReactDOM.render(
 );
 
 serviceWorkerRegistration.register();
-atatus.config('96f8281730c84f039e45d82fe97a3a6d').install();
-atatus.notify(new Error('Test Atatus Setup'));
+atatus.config('2acc39fb1afe48cea16db5a46310390a').install();
+// atatus.notify(new Error('Test Atatus Setup'));
