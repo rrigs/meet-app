@@ -18,12 +18,12 @@ service: auth-server
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
-frameworkVersion: '2'
+frameworkVersion: "2"
 
 provider:
   name: aws
   runtime: nodejs12.x
-  region: us-west-1
+  region: us-east-1
   timeout: 60
   environment:
     CLIENT_ID: ${file(config.json):CLIENT_ID}
