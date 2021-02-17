@@ -20,10 +20,10 @@ class NumberOfEvents extends Component {
         numberOfEvents: value,
         warningText: '',
       });
-      if (value.includes('fuck') || value.includes('shit')) {
+      if (value.includes('efgh') || value.includes('abcd')) {
         this.setState({
           numberOfEvents: value,
-          warningText: 'What??!! 🤬🤬🤬',
+          warningText: 'Warning!',
           infoText: '',
         });
       }

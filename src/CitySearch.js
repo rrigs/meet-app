@@ -22,10 +22,10 @@ class CitySearch extends Component {
         infoText:
           'We can not find the city you are looking for. Please try another city',
       });
-      if (value.includes('fuck') || value.includes('shit')) {
+      if (value.includes('5678') || value.includes('1234')) {
         this.setState({
           query: value,
-          warningText: 'What??!! 🤬🤬🤬',
+          warningText: 'Warning!',
           infoText: '',
         });
       }
