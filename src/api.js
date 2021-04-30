@@ -11,24 +11,24 @@ export const extractLocations = (events) => {
 export const getEvents = async () => {
   NProgress.start();
 
-  if (window.location.href.startsWith('http://localhost')) {
-    NProgress.done();
-    return { events: mockData, locations: extractLocations(mockData) };
-  }
+  // if (window.location.href.startsWith('http://localhost')) {
+  //   NProgress.done();
+  //   return { events: mockData, locations: extractLocations(mockData) };
+  // }
 
-  if (!navigator.onLine) {
-    const events = localStorage.getItem('lastEvents');
-    NProgress.done();
-    return {
-      events: JSON.parse(events).events,
-      locations: extractLocations(JSON.parse(events).events),
-    };
-  }
+  // if (!navigator.onLine) {
+  //   const events = localStorage.getItem('lastEvents');
+  //   NProgress.done();
+  //   return {
+  //     events: JSON.parse(events).events,
+  //     locations: extractLocations(JSON.parse(events).events),
+  //   };
+  // }
 
   const token = await getAccessToken();
   if (token) {
     removeQuery();
-    const url = `https://30bf329ybh.execute-api.us-west-1.amazonaws.com/dev/api/get-events/${token}`;
+    const url = `https://t5q4tkizkc.execute-api.us-east-1.amazonaws.com/dev/api/get-events/${token}/32`;
     const result = await axios.get(url);
     if (result.data) {
       var locations = extractLocations(result.data.events);
@@ -49,7 +49,7 @@ export const getAccessToken = async () => {
     const code = await searchParams.get('code');
     if (!code) {
       const results = await axios.get(
-        'https://30bf329ybh.execute-api.us-west-1.amazonaws.com/dev/api/get-auth-url'
+        'https://t5q4tkizkc.execute-api.us-east-1.amazonaws.com/dev/api/get-auth-url'
       );
       const { authUrl } = results.data;
       return (window.location.href = authUrl);
@@ -87,7 +87,7 @@ export const getToken = async (code) => {
   removeQuery();
   const encodeCode = encodeURIComponent(code);
   const { access_token } = await fetch(
-    `https://30bf329ybh.execute-api.us-west-1.amazonaws.com/dev/api/token/${encodeCode}`
+    `https://t5q4tkizkc.execute-api.us-east-1.amazonaws.com/dev/api/token/${encodeCode}`
   )
     .then((res) => {
       return res.json();
