@@ -6,7 +6,7 @@ For the fifth major project of my online web development course I was tasked wit
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### View it live [HERE](https://rrigs.github.io/meetv2/)
+### View it live [HERE](https://rrigs.github.io/meet-app/)
 
 ## Technologies:
 
