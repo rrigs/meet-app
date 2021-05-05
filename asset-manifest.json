@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/meetv2/static/css/main.ac12f3c6.chunk.css",
-    "main.js": "/meetv2/static/js/main.5af8d99e.chunk.js",
-    "main.js.map": "/meetv2/static/js/main.5af8d99e.chunk.js.map",
-    "runtime-main.js": "/meetv2/static/js/runtime-main.8562417e.js",
-    "runtime-main.js.map": "/meetv2/static/js/runtime-main.8562417e.js.map",
-    "static/js/2.0cb3c484.chunk.js": "/meetv2/static/js/2.0cb3c484.chunk.js",
-    "static/js/2.0cb3c484.chunk.js.map": "/meetv2/static/js/2.0cb3c484.chunk.js.map",
-    "index.html": "/meetv2/index.html",
-    "service-worker.js": "/meetv2/service-worker.js",
-    "service-worker.js.map": "/meetv2/service-worker.js.map",
-    "static/css/main.ac12f3c6.chunk.css.map": "/meetv2/static/css/main.ac12f3c6.chunk.css.map",
-    "static/js/2.0cb3c484.chunk.js.LICENSE.txt": "/meetv2/static/js/2.0cb3c484.chunk.js.LICENSE.txt"
+    "main.css": "/meet-app/static/css/main.ac12f3c6.chunk.css",
+    "main.js": "/meet-app/static/js/main.042623a9.chunk.js",
+    "main.js.map": "/meet-app/static/js/main.042623a9.chunk.js.map",
+    "runtime-main.js": "/meet-app/static/js/runtime-main.08d51544.js",
+    "runtime-main.js.map": "/meet-app/static/js/runtime-main.08d51544.js.map",
+    "static/js/2.0cb3c484.chunk.js": "/meet-app/static/js/2.0cb3c484.chunk.js",
+    "static/js/2.0cb3c484.chunk.js.map": "/meet-app/static/js/2.0cb3c484.chunk.js.map",
+    "index.html": "/meet-app/index.html",
+    "service-worker.js": "/meet-app/service-worker.js",
+    "service-worker.js.map": "/meet-app/service-worker.js.map",
+    "static/css/main.ac12f3c6.chunk.css.map": "/meet-app/static/css/main.ac12f3c6.chunk.css.map",
+    "static/js/2.0cb3c484.chunk.js.LICENSE.txt": "/meet-app/static/js/2.0cb3c484.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8562417e.js",
+    "static/js/runtime-main.08d51544.js",
     "static/js/2.0cb3c484.chunk.js",
     "static/css/main.ac12f3c6.chunk.css",
-    "static/js/main.5af8d99e.chunk.js"
+    "static/js/main.042623a9.chunk.js"
   ]
 }
